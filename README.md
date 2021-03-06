@@ -1,4 +1,4 @@
-# My Favorite Music Band Project
+# Anitas Kitchen - Web Clone Project
 
 ## Author
 Odero Oluoch
