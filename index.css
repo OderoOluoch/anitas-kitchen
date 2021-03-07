@@ -2,5 +2,42 @@
     padding: 0;
     height: 850px;
     width: 100%;
-    background-image: url(/);
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
 }
+.logo{
+    margin-top:4%;
+    text-align:conter;
+}
+
+.column {
+    float: left;
+    width: 25%;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+  .split-text{
+    background-color: maroon;
+    height: 200px;
+  }
+  .breakfast{
+      height: 200px;
+      background-color: black;
+  }
+  .lunch{
+      height: 200px;
+      background-color: green;
+  }
+  .dinner{
+      height: 200px;
+      background-color: hotpink;
+  }
