@@ -2,7 +2,7 @@
     padding: 0;
     height: 850px;
     width: 100%;
-    background-image: url("./images//landing.jpg");
+    background-image: url("./images/landing.jpg");
     background-size: cover;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -49,7 +49,6 @@
   #happy {
     color: black;
     font-size: 25px;
-    height: 50%;
     background-color: whitesmoke;
     text-align: center;
     vertical-align: middle;
@@ -59,14 +58,13 @@
   #party {
     color: white;
     font-size: 25px;
-    height: 50%;
     background-color: #f15a29;
     text-align: center;
     vertical-align: middle;
     line-height: 105px;
   }
   #marketing-breakfast {
-    background-image: url(../Images/foodtop/breakfast.jpg);
+    background-image: url(./images/breakfast.jpg);
     background-size: cover;
     color: white;
     font-style: italic;
@@ -78,7 +76,7 @@
   }
   
   #marketing-lunch {
-    background-image: url(../Images/foodtop/lunch.jpg);
+    background-image: url(./images/lunch.jpg);
     background-size: cover;
     color: white;
     font-style: italic;
@@ -90,7 +88,7 @@
   }
   
   #marketing-dinner {
-    background-image: url(../Images/foodtop/dinner.jpg);
+    background-image: url(./images/dinner.jpg);
     background-size: cover;
     color: white;
     font-style: italic;
@@ -102,7 +100,7 @@
   }
   
   #marketing-dinner:hover {
-    background-image: url(../Images/foodtop/dinner2.jpg);
+    background-image: url(./images/dinner2.jpg);
     background-size: cover;
   }
 
