@@ -1,3 +1,9 @@
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+    
+    
+
 .intro{
     padding: 0;
     height: 850px;
@@ -369,4 +375,92 @@
   }
   .rightarrow-head {
     margin: 0 0 0 10px;
+  }
+
+
+
+
+/* Footer section */
+
+.end-footer-area {
+    background-color: #f15a29;
+    height: 301px;
+  }
+  .marketing-subscription {
+    background-image: url(./images/subscribe.jpg);
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    background-size: cover;
+    height: 301px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .marketing-subscription-heading {
+    color: white;
+    font-size: 40px;
+  }
+  .email-entry-area {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+  .email-entry {
+    flex-grow: 2;
+    color: white;
+    font-size: 20px;
+    background-color: lightgray;
+    margin: 0 20px 0 0;
+  }
+  #email-entry-tag {
+    padding: 0 0 0 15px;
+  }
+  .submission-button {
+    flex-grow: 1;
+    color: white;
+    background-color: #f15a29;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 0 0 20px;
+  }
+  .end-footer-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px 50px 50px;
+  }
+  .footer-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-icon-text {
+    color: white;
+    margin: 0 0 0 15px;
+    font-size: 20px;
+  }
+  .footer-description {
+    color: white;
+    font-size: 25px;
+    margin: 15px 0 20px 0;
+  }
+  .copyright {
+    color: white;
+  }
+  .social-media-icons {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 30px 0;
+  }
+  .copyright {
+    margin: 10px 0 0 0;
+  }
+  .facebook-icon .twitter-icon .pintrest-icon {
+    height: 39px;
+    width: 39px;
   }
