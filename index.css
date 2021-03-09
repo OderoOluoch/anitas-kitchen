@@ -288,3 +288,85 @@
    
   
 
+/* CSS for client revie area and about us */
+
+
+.client-review-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 40%;
+    margin: 150px auto 150px auto;
+    border: whitesmoke 2px solid;
+    box-shadow: 5px 5px 5px 5px lightgray;
+  }
+  .client-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 66.66%;
+    padding: 0 30px 30px 60px;
+  }
+  .about-sectio {
+    border-right: solid 1px gray;
+    height: 200px;
+    margin: 0 20px 0 20px;
+  }
+  .menu-about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 33.33%;
+    padding: 0 40px 0 20px;
+  }
+  .about {
+    color: #f15a29;
+    font-size: 25px;
+  }
+  .about-comment {
+    font-size: 20px;
+  }
+  .client-area-heading {
+    font-size: xx-large;
+    color: #f15a29;
+  }
+  .client-comment {
+    font-size: 20px;
+  }
+  .client-name {
+    font-size: 22px;
+  }
+  .client-avatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .lefthead {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  .righthead {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+  .righthead , .lefthead {
+    border: solid #f15a29;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 0 0 10px 10px;
+
+  }
+  .leftarrow-head {
+    margin: 0 10px 0 0;
+  }
+  .rightarrow-head {
+    margin: 0 0 0 10px;
+  }
